@@ -6,7 +6,6 @@ function CocktailList({ drinks }) {
       <h4 style={{ textAlign: "center" }}>No matching cocktails found ...</h4>
     );
   }
-  console.log(drinks);
   const formattedDrinks = drinks.map((item) => {
     const { idDrink, strDrink, strDrinkThumb, strAlcoholic, strGlass } = item;
     return {
